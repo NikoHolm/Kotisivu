@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Etusivu from './components/Etusivu'
 import Projektit from './components/Projektit'
@@ -10,7 +10,7 @@ function App() {
   console.log('App rendering...')
   
   return (
-    <Router>
+    <Router basename="/Kotisivu">
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
         {/* Navigointi ylhäällä */}
         <Navbar />
