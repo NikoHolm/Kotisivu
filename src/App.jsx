@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Etusivu from './components/Etusivu'
 import Projektit from './components/Projektit'
@@ -27,6 +27,7 @@ function App() {
               <Route path="/" element={<Etusivu />} />
               <Route path="/projektit" element={<Projektit />} />
               <Route path="/yhteystiedot" element={<Yhteystiedot />} />
+              <Route path="*" element={<Etusivu />} />
             </Routes>
           </main>
         </div>
