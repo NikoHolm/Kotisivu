@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Etusivu from './components/Etusivu'
 import Projektit from './components/Projektit'
@@ -10,7 +10,7 @@ function App() {
   console.log('App rendering...')
   
   return (
-    <Router basename="/Kotisivu">
+    <Router>
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
         {/* Navigointi ylhäällä */}
         <Navbar />
@@ -27,10 +27,9 @@ function App() {
           <main className="bg-slate-800/60 backdrop-blur-sm rounded-3xl border border-slate-600/30 p-12 shadow-2xl">
             <Routes>
               <Route path="/" element={<Etusivu />} />
-              <Route path="/etusivu" element={<Etusivu />} />
               <Route path="/projektit" element={<Projektit />} />
               <Route path="/yhteystiedot" element={<Yhteystiedot />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="*" element={<Etusivu />} />
             </Routes>
           </main>
         </div>
