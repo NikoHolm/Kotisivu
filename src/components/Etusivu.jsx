@@ -1,8 +1,16 @@
+import React, { useEffect } from 'react'
 import Taitoni from './Taitoni'
 import Ohjelmistot from './Ohjelmistot'
 import selfieImage from '../assets/selfie.jpeg'
 
 function Etusivu() {
+  useEffect(() => {
+    console.log('Etusivu component mounted')
+    console.log('Current location:', window.location.hash)
+  }, [])
+
+  console.log('Etusivu rendering...')
+
   return (
     <div className="text-center">
       {/* Tervetuloa otsikko */}

@@ -54,15 +54,6 @@ function Projektit() {
                 ))}
               </div>
             </div>
-            
-            {projekti.linkki !== '#' && (
-              <a 
-                href={projekti.linkki}
-                className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white no-underline rounded-lg font-semibold transition-transform duration-200 hover:scale-105"
-              >
-                Katso projekti →
-              </a>
-            )}
           </div>
         ))}
       </div>
