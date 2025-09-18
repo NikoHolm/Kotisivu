@@ -39,7 +39,7 @@ function Etusivu() {
           <p className="text-gray-300 text-left leading-relaxed">
             Olen Niko Holm, tietoja viestintätekniikan opiskelija Savon ammattiopistolla, ja opiskelen nyt viimeistä vuottani. Valmistun keväällä 2026. 
             Minun vahvuuteni ovat: itsenäinen tekeminen,  loogisuus, tavoitteellisuus ja mielikuvitus. 
-            Olen erityisen kiinnostunut web-kehityksestä ja mobiilisovelluksien kehityksestä.
+            Olen erityisen kiinnostunut web- ja mobiilisovelluksien kehityksestä.
           </p>
         </div>
         
