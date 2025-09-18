@@ -4,18 +4,23 @@ function Projektit() {
   const projektit = [
     {
       nimi: 'Matikkapeli',
-      kuvaus: 'Tällä hetkellä työskentelen matikka projektin parissa jossa lasketaan perustason matemaattisia laskuja ja käytän siinä react ja tailwindcss frontendinä ja backendinä php supabase .',
+      kuvaus: 'Tällä hetkellä työskentelen matikka projektin parissa jossa, lasketaan perustason matemaattisia laskuja ja käytän siinä react ja tailwindcss frontendinä ja backendinä php supabase .',
       tekniikat: ['React', 'TailwindCSS', 'PHP', 'Supabase'],
     },
     {
       nimi: 'Kotisivut',
-      kuvaus: 'Päivitetyt kotisivut jotka on tehty reactia ja tailwindcss käyttäen ja tässä lopputulos.',
+      kuvaus: 'Päivitetyt kotisivut, jotka on tehty reactia ja tailwindcss käyttäen ja tässä lopputulos.',
       tekniikat: ['React', 'TailwindCSS'],
     },
     {
       nimi: 'Ravit sovellus',
-      kuvaus: 'Ravit sovellus jossa voidaan uhkapelata raveissa ja jokaisella hevosella on eri todennäköisyydet ja kertoimet. Sovellus on tehty käyttäen swiftiä ja supabasea.',
+      kuvaus: 'Ravit sovellus jossa, voidaan uhkapelata raveissa ja jokaisella hevosella on eri todennäköisyydet ja kertoimet. Sovellus on tehty käyttäen swiftiä ja supabasea.',
       tekniikat: ['Swift', 'Supabase'],
+    },
+        {
+      nimi: 'Testausautomaatio sovellus',
+      kuvaus: 'Testausautomaatio sovellus, jossa vertailtiin MySQL ja api rajapintojen tuloksia keskenään. Tein tämän työharjoitelussa <a href="https://clinisoft.fi" target="_blank">Clinisoft Oy:lle. </a>',
+      tekniikat: ['PHP, MySQL, REST API],
     }
   ]
 
