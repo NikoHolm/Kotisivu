@@ -19,7 +19,7 @@ function Yhteystiedot() {
           </h3>
           <div className="text-left">
             <a 
-              href="mailto:niko.holm@example.com"
+              href="mailto:niko.holm@edu.sakky.fi"
               className="text-purple-400 hover:text-purple-300 transition-colors text-lg no-underline"
             >
               📧 niko.holm@edu.sakky.fi
