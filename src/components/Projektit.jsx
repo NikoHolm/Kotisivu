@@ -4,18 +4,24 @@ function Projektit() {
   const projektit = [
     {
       nimi: 'Matikkapeli',
-      kuvaus: 'Tällä hetkellä työskentelen matikka projektin parissa jossa lasketaan perustason matemaattisia laskuja ja käytän siinä react ja tailwindcss frontendinä ja backendinä php supabase .',
+      kuvaus: 'Tällä hetkellä työskentelen matikka projektin parissa jossa, lasketaan perustason matemaattisia laskuja ja käytän siinä react ja tailwindcss frontendinä ja backendinä php supabase .',
       tekniikat: ['React', 'TailwindCSS', 'PHP', 'Supabase'],
     },
     {
       nimi: 'Kotisivut',
-      kuvaus: 'Päivitetyt kotisivut jotka on tehty reactia ja tailwindcss käyttäen ja tässä lopputulos.',
+      kuvaus: 'Päivitetyt kotisivut, jotka on tehty reactia ja tailwindcss käyttäen ja tässä lopputulos.',
       tekniikat: ['React', 'TailwindCSS'],
     },
     {
       nimi: 'Ravit sovellus',
-      kuvaus: 'Ravit sovellus jossa voidaan uhkapelata raveissa ja jokaisella hevosella on eri todennäköisyydet ja kertoimet. Sovellus on tehty käyttäen swiftiä ja supabasea.',
+      kuvaus: 'Ravit sovellus jossa, voidaan uhkapelata raveissa ja jokaisella hevosella on eri todennäköisyydet ja kertoimet. Sovellus on tehty käyttäen swiftiä ja supabasea.',
       tekniikat: ['Swift', 'Supabase'],
+    }, 
+    {
+      nimi: 'Testausautomaatio sovellus',
+      kuvaus: 'Testausautomaatio sovellus, jossa vertailtiin MySQL ja api rajapintojen tuloksia keskenään. Tein tämän työharjoitelussa Clinisoft Oy:lle.',
+      tekniikat: ['PHP', 'MySQL', 'REST API'],
+      linkki: 'https://clinisoft.fi'
     }
   ]
 
@@ -54,6 +60,17 @@ function Projektit() {
                 ))}
               </div>
             </div>
+            
+            {projekti.linkki && (
+              <a 
+                href={projekti.linkki}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white no-underline rounded-lg text-sm font-medium transition-transform duration-200 hover:scale-105"
+              >
+                Katso yrityksen sivu →
+              </a>
+            )}
           </div>
         ))}
       </div>

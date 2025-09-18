@@ -7,6 +7,11 @@ export default defineConfig({
   base: '/Kotisivu/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    sourcemap: false,
+    minify: true
+  },
+  server: {
+    port: 3000
   }
 })
