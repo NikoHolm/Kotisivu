@@ -8,7 +8,7 @@ function Footer() {
       <div className="max-w-5xl mx-auto px-4 text-center">
         <div className="mb-4">
           <h4 className="text-xl font-semibold text-white mb-2">Niko Holm</h4>
-          <p className="text-gray-300">Tietoja viestintätekniikan opiskelija</p>
+          <p className="text-gray-300">Tieto- ja viestintätekniikan opiskelija</p>
         </div>
     
         <div className="flex justify-center gap-8 mb-6 text-sm">
