@@ -3,7 +3,7 @@ import React from 'react'
 function Taitoni() {
   const koodauskielet = [
     { kieli: 'JavaScript', prosentti: 60 },
-    { kieli: 'React', prosentti: 55 },
+    { kieli: 'React', prosentti: 75 },
     { kieli: 'TailwindCSS', prosentti: 65 },
     { kieli: 'Flutter', prosentti: 45 },
     { kieli: 'PHP', prosentti: 80 },
